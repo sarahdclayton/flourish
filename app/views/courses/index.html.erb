@@ -1,0 +1,16 @@
+<h1>Courses</h1>
+
+<% @courses.each do |course| %>
+    <div>
+        <%= course.course_name %>
+    </div>
+    <div>
+        <%= course.category %>
+    </div>
+    <div>
+        <%= course.description %>
+    </div>
+    <div>
+        <%= course.instructor %>
+    </div>
+<% end %>
